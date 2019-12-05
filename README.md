@@ -1,5 +1,11 @@
 # telecom-challenge
 
+## Capabilities
+
+1. Get All Telephone Numbers - [](http://localhost:8080/telephoneInquiry/all/services)
+2. Get All Telephone Numbers for a Customer [](http://localhost:8080/telephoneInquiry/{customerId}/services
+3. Activate/Deactivate a Telephone number
+
 ## URLs
 
 * Swagger API docs [http://localhost:8080/telephoneInquiry/v2/api-docs](http://localhost:8080/telephoneInquiry/v2/api-docs)
