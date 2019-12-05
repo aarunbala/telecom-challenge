@@ -18,7 +18,12 @@
 		<java.version>1.8</java.version>
 		<spring-cloud.version>Hoxton.RELEASE</spring-cloud.version>
 		<org.mapstruct.version>1.1.0.Final</org.mapstruct.version>
-		 <sonar.coverage.exclusions>com/**/model/*,com/**/repository/*</sonar.coverage.exclusions>
+		<sonar.exclusions>
+			**/TelephoneInquiryApplication.java,
+			**/TelephoneInquiryController.java,
+			**/model/*.java,
+			**/repository/*.java
+		</sonar.exclusions>
 	</properties>
 
 	<dependencies>
