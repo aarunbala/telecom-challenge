@@ -8,8 +8,8 @@
     - http://localhost:8080/telephoneInquiry/activate/service
     - http://localhost:8080/telephoneInquiry/deactivate/service
 
-## Interface Specifications
-Interface specifications are provided through Swagger.
+## Interface Specifications & Data Model
+Interface specifications are provided through Swagger. Data models can be accessed from the Swagger UI link under Models.
 * Swagger API docs - http://localhost:8080/telephoneInquiry/v2/api-docs
 * Swagger UI - http://localhost:8080/telephoneInquiry/swagger-ui.html
 
@@ -17,3 +17,12 @@ Interface specifications are provided through Swagger.
 * H2 In memory DB - http://localhost:8080/telephoneInquiry/h2
 * Actuator - http://localhost:8080/telephoneInquiry/actuator
 
+CustomerProfile{
+    customerId	string
+    name	string
+    services	[Service{
+                            activated	boolean
+                            activatedTime	string($date-time)
+                            phoneNumber	string
+                 }]
+}
