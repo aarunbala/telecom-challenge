@@ -1,7 +1,6 @@
 package com.telecom.challenge;
 
 import java.time.LocalDateTime;
-import java.util.ArrayList;
 import java.util.List;
 
 import org.slf4j.Logger;
@@ -13,8 +12,8 @@ import com.telecom.challenge.model.ActivationRequest;
 import com.telecom.challenge.model.CustomerProfile;
 import com.telecom.challenge.repository.CustomerProfileRepository;
 import com.telecom.challenge.repository.ServiceRepository;
-import com.telecom.challenge.support.CustomerAssociationException;
 import com.telecom.challenge.support.ActivationServiceException;
+import com.telecom.challenge.support.CustomerAssociationException;
 
 @Service
 public class TelephoneInquiryService {
