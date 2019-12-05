@@ -10,5 +10,8 @@
 Interface specifications are provided through Swagger.
 * Swagger API docs - http://localhost:8080/telephoneInquiry/v2/api-docs
 * Swagger UI - http://localhost:8080/telephoneInquiry/swagger-ui.html
+
+## Other URls
 * H2 In memory DB - http://localhost:8080/telephoneInquiry/h2
+* Actuator - http://localhost:8080/telephoneInquiry/actuator
 
