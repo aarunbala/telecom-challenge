@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.ResponseStatus;
 
 @ControllerAdvice
-public class PhoneNumberAlreadyActivatedAdvice {
+public class ActivationServiceAdvice {
 	@ResponseBody
 	@ExceptionHandler(ActivationServiceException.class)
 	@ResponseStatus(HttpStatus.BAD_REQUEST)

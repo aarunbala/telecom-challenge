@@ -29,11 +29,7 @@ public class TelephoneInquiryService {
 
 	public List<com.telecom.challenge.model.Service> getAllTelephoneNumbers() {
 		log.info("Get all Telephone numbers");
-		List<com.telecom.challenge.model.Service> services = serviceRepo.findAll();
-		if (services != null) {
-			return services;
-		}
-		return new ArrayList<>();
+		return serviceRepo.findAll();
 	}
 
 	public CustomerProfile getAllTelephoneNumbers(String customerId) {
