@@ -9,7 +9,7 @@
     - http://localhost:8080/telephoneInquiry/deactivate/service
 
 ## Interface Specifications & Data Model
-Interface specifications are provided through Swagger. Data models can be accessed from the Swagger UI link under Models.
+Interface specifications are provided through Swagger. 
 * Swagger API docs - http://localhost:8080/telephoneInquiry/v2/api-docs
 * Swagger UI - http://localhost:8080/telephoneInquiry/swagger-ui.html
 
@@ -17,6 +17,10 @@ Interface specifications are provided through Swagger. Data models can be access
 * H2 In memory DB - http://localhost:8080/telephoneInquiry/h2
 * Actuator - http://localhost:8080/telephoneInquiry/actuator
 
+
+## Data Model
+Data models can also be accessed from the Swagger UI link under Models.
+```
 CustomerProfile{
     customerId	string
     name	string
@@ -26,3 +30,4 @@ CustomerProfile{
                             phoneNumber	string
                  }]
 }
+```
