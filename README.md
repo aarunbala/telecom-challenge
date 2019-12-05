@@ -1,5 +1,13 @@
 # telecom-challenge
 
+## How-to
+Application can be started using the below command. Application runs on port 8080.
+```
+mvn spring-boot:run 
+```
+## Data Load
+On Application load, data from data.sql gets loaded into the In_memory H2 database.
+
 ## Capabilities
 
 1. Get All Telephone Numbers - http://localhost:8080/telephoneInquiry/all/services
