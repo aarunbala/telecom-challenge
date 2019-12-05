@@ -42,6 +42,6 @@ mvn spring-boot:run
 ## Other URls
 * H2 In memory DB - http://localhost:8080/telephoneInquiry/h2
 * Actuator - http://localhost:8080/telephoneInquiry/actuator
-* Sonarqube Metrics Snaphsot - 
+
 
 
