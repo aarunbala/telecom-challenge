@@ -20,7 +20,6 @@
 		<org.mapstruct.version>1.1.0.Final</org.mapstruct.version>
 		<sonar.exclusions>
 			**/TelephoneInquiryApplication.java,
-			**/TelephoneInquiryController.java,
 			**/model/*.java,
 			**/repository/*.java
 		</sonar.exclusions>
