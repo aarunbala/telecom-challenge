@@ -16,6 +16,8 @@ Interface specifications are provided through Swagger.
 ## Data Model
 Data models can also be accessed from the Swagger UI link under Models. Simple Data model (white boarded) can be accessed from [here](https://github.com/aarunbala/telecom-challenge/blob/master/src/main/resources/DataModel.jpg)
 
+Based on my intrepretation of the provided document, I assumed that all the Phone Numbers will have an association with a Customer in the database and there will not be any orphaned phone numbers (not associated with a customer) available for the purposes of this exercise. 
+
 ```
 CustomerProfile{
     customerId	string
@@ -40,6 +42,6 @@ mvn spring-boot:run
 ## Other URls
 * H2 In memory DB - http://localhost:8080/telephoneInquiry/h2
 * Actuator - http://localhost:8080/telephoneInquiry/actuator
-
+* Sonarqube Metrics Snaphsot - 
 
 
