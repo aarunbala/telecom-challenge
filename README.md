@@ -4,7 +4,9 @@
 
 1. Get All Telephone Numbers - http://localhost:8080/telephoneInquiry/all/services
 2. Get All Telephone Numbers for a Customer - http://localhost:8080/telephoneInquiry/{customerId}/services
-3. Activate/Deactivate a Telephone number
+3. Activate/Deactivate a Telephone number 
+    - http://localhost:8080/telephoneInquiry/activate/service
+    - http://localhost:8080/telephoneInquiry/deactivate/service
 
 ## Interface Specifications
 Interface specifications are provided through Swagger.
