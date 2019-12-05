@@ -19,7 +19,8 @@ Interface specifications are provided through Swagger.
 
 
 ## Data Model
-Data models can also be accessed from the Swagger UI link under Models.
+Data models can also be accessed from the Swagger UI link under Models. Simple Data model (white boarded) can be accessed from [here](https://github.com/aarunbala/telecom-challenge/blob/master/src/main/resources/DataModel.jpg)
+
 ```
 CustomerProfile{
     customerId	string
