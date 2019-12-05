@@ -90,20 +90,23 @@ public class CustomerProfile {
 		if (customerId == null) {
 			if (other.customerId != null)
 				return false;
-		} else if (!customerId.equals(other.customerId))
+		} else if (!customerId.equals(other.customerId)) {
 			return false;
+		}
 		if (id != other.id)
 			return false;
 		if (name == null) {
 			if (other.name != null)
 				return false;
-		} else if (!name.equals(other.name))
+		} else if (!name.equals(other.name)) {
 			return false;
+		}
 		if (services == null) {
 			if (other.services != null)
 				return false;
-		} else if (!services.equals(other.services))
+		} else if (!services.equals(other.services)) {
 			return false;
+		}
 		return true;
 	}
 

@@ -105,20 +105,23 @@ public class Service {
 		if (activatedTime == null) {
 			if (other.activatedTime != null)
 				return false;
-		} else if (!activatedTime.equals(other.activatedTime))
+		} else if (!activatedTime.equals(other.activatedTime)) {
 			return false;
+		}
 		if (customer == null) {
 			if (other.customer != null)
 				return false;
-		} else if (!customer.equals(other.customer))
+		} else if (!customer.equals(other.customer)) {
 			return false;
+		}
 		if (id != other.id)
 			return false;
 		if (phoneNumber == null) {
 			if (other.phoneNumber != null)
 				return false;
-		} else if (!phoneNumber.equals(other.phoneNumber))
+		} else if (!phoneNumber.equals(other.phoneNumber)) {
 			return false;
+		}
 		return true;
 	}
 

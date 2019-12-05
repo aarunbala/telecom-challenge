@@ -33,7 +33,7 @@ public class TelephoneInquiryService {
 		if (services != null) {
 			return services;
 		}
-		return new ArrayList<com.telecom.challenge.model.Service>();
+		return new ArrayList<>();
 	}
 
 	public CustomerProfile getAllTelephoneNumbers(String customerId) {
